@@ -5,6 +5,10 @@
   font-family: 'roboto', sans-serif;
 }
 
+.test {
+  color: #fff;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -14,53 +18,91 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
   background-color: #1f2937;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 10px 20px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
 }
 
-header > p, header > a {
+header p, header a {
   color: #fff;
+}
+
+#header-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 #main-content {
   display: flex;
-  max-width: 800px;
-  margin: 60px auto 20px auto;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#content {
-  flex: 1;
+  justify-content: center;
+  margin: 100px auto;
   padding: 20px;
 }
-
-#all-content {
+.center-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  gap: 20px;
+  padding: 20px;
+  background-color: #1f2937;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
 }
 
-#title {
+.lesson {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #1f2937;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+
+}
+.main-content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #1f2937;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+
+}
+
+#page-logo {
   font-size: 1.5em;
   margin: 0;
-  padding: 0;
+  padding: 0 20% 0 0;
   color: #fff;
 }
 
+.lesson-logo {
+  width: 20%;
+  height: auto;
+}
+
 h1 {
-  color: #1f2937;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 p {
-  color: #1f2937;
+  color: #fff;
 }
 
 footer {
@@ -72,7 +114,7 @@ footer {
   width: 100%;
   bottom: 0;
   z-index: 1000;
-  }
+}
 
 footer > p, footer > a {
   color: #fff;
