@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #1f2937;
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -19,7 +19,7 @@ header {
 #main-content {
   display: flex;
   max-width: 800px;
-  margin: 60px auto 20px auto; /* Aumentamos el margen superior para dar espacio al encabezado */
+  margin: 60px auto 20px auto;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -27,6 +27,23 @@ header {
 #content {
   flex: 1;
   padding: 20px;
+}
+
+#all-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 1000;
 }
 
 #title {
@@ -43,3 +60,11 @@ h1 {
 p {
   color: #1f2937;
 }
+
+
+a {
+  color: #1f2937;
+}
+
+
+/* Path: index.html */
