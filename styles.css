@@ -89,6 +89,11 @@ header p, header a {
   max-width: 1000px;
 
 }
+#logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #page-logo {
   font-size: 1.5em;
@@ -129,7 +134,8 @@ footer {
   z-index: 1000;
 }
 
-footer > p, footer > a {
+footer > p, footer a {
   color: #F1F6F9;
+  text-decoration: none;
 }
 /* Path: index.html */
