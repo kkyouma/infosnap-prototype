@@ -2,26 +2,26 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #1B2430;
+  background-color: #1f2937;
 }
 
 header {
   background-color: #333;
-  padding: 20px;
-  color: #DDE6ED;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
 #main-content {
   display: flex;
   max-width: 800px;
-  margin: 20px auto;
-  background-color: #526D82;
+  margin: 60px auto 20px auto; /* Aumentamos el margen superior para dar espacio al encabezado */
+  background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#sidebar {
-  width: 50px;
-  background-color: #333;
 }
 
 #content {
@@ -29,10 +29,17 @@ header {
   padding: 20px;
 }
 
+#title {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
 h1 {
-  color: #9DB2BF;
+  color: #1f2937;
 }
 
 p {
-  color: #DDE6ED;
+  color: #1f2937;
 }
