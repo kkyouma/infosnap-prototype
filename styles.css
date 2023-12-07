@@ -28,6 +28,16 @@ header p, header a {
   color: #F1F6F9;
 }
 
+header button {
+  background-color: #394867;
+  color: #F1F6F9;
+  border: 1px solid #394867;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 #center-header {
   display: flex;
   justify-content: space-between;
@@ -90,6 +100,7 @@ header p, header a {
   font-size: 16px;
   line-height: 1.6;
   overflow: visible;
+  min-width: 400px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
@@ -114,7 +125,10 @@ header p, header a {
   width: 300px;
   height: auto;
 }
-
+.noreduce-image{
+  width: 100%;
+  height: auto;
+}
 .reduce-logo{ 
   width: 50px;
   height: auto;
@@ -220,7 +234,19 @@ body.light {
   color: #000;
 }
 
-body.light .h {
+body.light h1 {
+  color: #000;
+}
+
+body.light h2 {
+  color: #000;
+}
+
+body.light h3 {
+  color: #000;
+}
+
+body.light h4 {
   color: #000;
 }
 
@@ -252,4 +278,16 @@ body.default .some-class {
 
 body.default .another-class {
   background-color: #ccc;
+}
+
+image {
+  width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  #right-container {
+    display: none;
+  }
 }
