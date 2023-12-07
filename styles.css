@@ -1,6 +1,6 @@
 * {
   /* border: 1px solid red; */
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
@@ -19,10 +19,8 @@ header {
   color: #F1F6F9;
   text-align: center;
   padding: 10px 20px;
-  position: fixed;
   width: 100%;
   top: 0;
-  position: fixed;
   transition: top 0.3s;
   z-index: 1;
   border-bottom: 1px solid ;
@@ -111,7 +109,6 @@ header p, header a {
 #page-logo {
   font-size: 1.5em;
   margin: 0;
-  padding: 0 0 0 20%;
   color: #F1F6F9;
 }
 
@@ -180,6 +177,7 @@ nav#toc_container {
   width: auto;
   text-align: left;
   position: sticky;
+  top: 20px
 }
 
 .toc_title {
