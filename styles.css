@@ -154,9 +154,8 @@ align-items: center;
   bottom: 0px;
 }
 
-footer > p, footer a {
-  color: #F1F6F9;
-  text-decoration: none;
+footer a {
+  color:#E0AF68;
 }
 
 #toc_container {
