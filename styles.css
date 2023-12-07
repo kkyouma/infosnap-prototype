@@ -389,3 +389,44 @@ image {
     display: none;
   }
 }
+
+button:hover {
+  background-color: #F1F6F9;
+  color: #394867;
+  border-color: #F1F6F9;
+}
+
+#light-theme{
+  background-color: #dfdfdf;
+  color: #F1F6F9;
+  border: 1px solid #633967;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#solarized-theme{
+  background-color: #073642;
+  color: #cb4b16;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #F1F6F9;
+  color: #394867;
+  border-color: #F1F6F9;
+}
+
+button {
+  background-color: #394867;
+  color: #F1F6F9;
+  border: 1px solid #394867;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
