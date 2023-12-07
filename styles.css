@@ -12,13 +12,13 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 20px;
   background-color: #394867;
   color: #F1F6F9;
   text-align: center;
-  padding: 10px 20px;
+
   width: 100%;
   top: 0;
   border-bottom: 1px solid;
@@ -287,7 +287,16 @@ image {
 }
 
 @media screen and (max-width: 1100px) {
-  #right-container {
+  #right-container, 
+  header button,
+  #logo-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #ucm-logo-container 
+  #page-logo{
     display: none;
   }
 }
